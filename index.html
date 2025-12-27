@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The AI-driven open-source operating system for the modern mariner." />
+    <title>OpenSeaStack - The Intelligent OS for Mariners</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav
+        style="padding: 1.5rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; backdrop-filter: blur(10px); border-bottom: 1px solid var(--glass-border); background: rgba(10, 15, 28, 0.7);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-weight: 700; font-size: 1.2rem; color: white; letter-spacing: -0.5px;">OpenSeaStack</div>
+            <div>
+                <a href="#vision" style="margin-right: 1.5rem; font-size: 0.9rem; color: #a0aab4;">Vision</a>
+                <a href="#tech" style="margin-right: 1.5rem; font-size: 0.9rem; color: #a0aab4;">Tech</a>
+                <a href="https://github.com/openseastack" class="btn btn-secondary"
+                    style="padding: 0.5rem 1rem; font-size: 0.9rem;">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container" style="display: flex; align-items: center; gap: 4rem; flex-wrap: wrap;">
+            <div class="hero-content animate" style="flex: 1; min-width: 300px; text-align: left;">
+                <h1>The Intelligent Operating System for the Modern Mariner</h1>
+                <p>Bringing the power of the 'Home Assistant' model to marine electronics. A fully integrated,
+                    community-driven ecosystem powered by multi-agent AI and robust geospatial data.</p>
+                <div class="hero-actions" style="justify-content: start;">
+                    <a href="https://github.com/openseastack" class="btn btn-primary">View on GitHub</a>
+                    <a href="#" class="btn btn-secondary">Join the Community</a>
+                </div>
+            </div>
+            <div class="hero-image animate" style="flex: 1; min-width: 300px; animation-delay: 0.2s;">
+                <img src="/website_hero.jpg" alt="OpenSeaStack Interface"
+                    style="border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid var(--glass-border);">
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Vision -->
+    <section id="vision">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 3rem;">The Vision</h2>
+            <div class="card" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.1rem; color: #e0e6ed; margin-bottom: 0;">
+                    Marine electronics have long been dominated by proprietary, dumb terminals. OpenSeaStack changes
+                    that by introducing an 'Agentic' approach to vessel management. We are building a modular platform
+                    that combines a custom Linux-based OS with a sophisticated multi-agent AI architecture, allowing
+                    your vessel to not just record data, but understand and act on it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="tech">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 3rem;">Core Technology Stack</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Multi-Agent Architecture</h3>
+                    <p>A sophisticated network of specialized AI agents working in concert to monitor systems, predict
+                        maintenance, and assist with navigation logic.</p>
+                </div>
+                <div class="card">
+                    <h3>Geospatial Data (PostGIS)</h3>
+                    <p>Native integration of PostgreSQL and PostGIS to handle complex spatial data, bathymetry, and
+                        charting requirements with enterprise-grade reliability.</p>
+                </div>
+                <div class="card">
+                    <h3>GreptimeDB</h3>
+                    <p>High-performance time-series database optimized for storing massive amounts of sensor data,
+                        engine metrics, and environmental logs efficiently.</p>
+                </div>
+                <div class="card">
+                    <h3>LanceDB Knowledge Engine</h3>
+                    <p>A serverless vector database powering our 'Documentation Hub'—a RAG system that lets you chat
+                        with your boat's manuals and historical data.</p>
+                </div>
+                <div class="card">
+                    <h3>Containerized OS</h3>
+                    <p>A lightweight Buildroot-based Linux distribution running a full Docker ecosystem, ensuring
+                        modularity and easy updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deep Dive -->
+    <section id="deep-dive" style="background: linear-gradient(180deg, transparent, rgba(0,0,0,0.3));">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 3rem;">The Agentic Approach</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                <div class="card">
+                    <h3>Smart Documentation Hub</h3>
+                    <p>Stop digging through PDF manuals in the dark. By utilizing LanceDB, OpenSeaStack ingests
+                        technical documentation for every device on your network. This allows our AI agents to provide
+                        instant, context-aware answers to troubleshooting questions specific to your vessel's hardware.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Intelligent Data Fusion</h3>
+                    <p>By combining the time-series power of GreptimeDB with the spatial awareness of PostGIS, our
+                        agents can correlate location data with performance metrics—identifying not just *what*
+                        happened, but *where* and *why*.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 3rem;">Active Initiatives</h2>
+            <div class="grid">
+                <div class="card" style="border-left: 4px solid var(--accent-color);">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <h3>The Meridian Scout</h3>
+                        <span class="badge badge-cyan">Prototype</span>
+                    </div>
+                    <p>An autonomous surface vessel (ASV) utilizing the OpenSeaStack software suite to validate our
+                        PostGIS and GreptimeDB data collection pipelines in real-world scenarios.</p>
+                </div>
+                <div class="card" style="border-left: 4px solid var(--primary-color);">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <h3>OpenSeaStack OS</h3>
+                        <span class="badge badge-blue">In Development</span>
+                    </div>
+                    <p>The core operating system build, integrating the Agentic runtime and database layer into a
+                        flashable image for marine gateways.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>OpenSeaStack is currently in active development. Join us in defining the future of open marine software.
+            </p>
+            <div class="footer-links">
+                <a href="https://github.com/openseastack">GitHub</a>
+                <a href="#">Documentation</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
